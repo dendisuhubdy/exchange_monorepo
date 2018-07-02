@@ -1,16 +1,10 @@
 # Point of start 
 
 # spawn the database server 
-./database-server/build/restdbserver
+./database_server/build/database_server
 
 # spawn the clearing server (wallet fiat and crypto)
-./clearning/build/clearning
-
-# spawn quickfix server 
-./quickfix/build/quickfix-server 
-
-# spawn quickfast broadcasting server 
-./quickfast/build/quickfast-server 
+clearing
 
 # spawn RabbitMQ server for queues from quickfix 
 ,/order_management_system/build/oms

@@ -4,7 +4,7 @@
 ./build_dependencies.sh
 
 # Build clearning server 
-./clearing/build_all.sh
+python3 setup.py install --user
 
 # Build database server 
 ./database_server/build_all.sh
