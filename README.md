@@ -1,4 +1,4 @@
-# Bitwyre Exchange Technlogies
+# Bitwyre Exchange Platform
 
 This is the main point in which you could run a financial exchange
 with just one command. 
