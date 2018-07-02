@@ -1,7 +1,7 @@
 # Build all repositories
 
 # Build dependencies
-
+./build_dependencies.sh
 
 # Build clearning server 
 ./clearing/build_all.sh
