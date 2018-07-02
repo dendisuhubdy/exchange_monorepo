@@ -9,23 +9,25 @@ cd ./build/mongo-c-driver/
 # that have non-ascii characters on the SCRAM-SHA-256 auth mechanism.
 cmake -DENABLE_AUTOMATIC_INIT_AND_CLEANUP=OFF -DENABLE_ICU=OFF ../../mongo-c-driver/
 make -j16
+cd ../../
 
 # make mongo_cxx_driver 
 mkdir -p ./build/mongo-cxx-driver/
 cd ./build/mongo-cxx-driver/
 cmake ../../mongo-cxx-driver 
 make -j16
+cd ../../
 
 # build mFast
 mkdir -p ./build/mFast/
 cd ./build/mFast 
 cmake ../../mFast
 make -j16
-cd ..
+cd ../../
 
 # build quickfix
 mkdir -p ./build/quickfix/
 cd ./build/quickfix
 cmake ../../quickfix
 make -j16
-cd ..
+cd ../../

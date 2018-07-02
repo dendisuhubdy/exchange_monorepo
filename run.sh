@@ -4,9 +4,10 @@
 ./database_server/build/database_server
 
 # spawn the clearing server (wallet fiat and crypto)
-clearing
+# --all allows connectors to all wallets
+clearing --all
 
-# spawn RabbitMQ server for queues from quickfix 
+# spawn order management system
 ,/order_management_system/build/oms
 
 # spawn matching-engine-server
